@@ -1,0 +1,28 @@
+body{
+    
+  
+    
+    background-image: linear-gradient(to left bottom, #f2d5e0, #dbc6de, #bbbada, #94b1d2, #6aa7bf);
+    
+    background-attachment: fixed;
+
+    font-family: 'Abril Fatface', cursive;
+}
+
+p,h1{     
+color: rgba(47, 46, 46, 0.247);
+-webkit-text-stroke: 1px rgb(1, 1, 1);
+}
+p{
+    font-size: 30px;
+}
+
+.contenedor-all{
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.image-me{
+    border-radius: 50%;
+}
