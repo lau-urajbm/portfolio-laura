@@ -2,19 +2,36 @@ body{
     
   
     
-    background-image: linear-gradient(to left bottom, #f2d5e0, #dbc6de, #bbbada, #94b1d2, #6aa7bf);
+   /*  background: #0f0c29; 
+background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  
+background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); 
+ */background-color: #000000;
     
     background-attachment: fixed;
 
+    
+}
+h1,h2,h3,h4,h5{
     font-family: 'Abril Fatface', cursive;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+h2,h3{
+    background: linear-gradient(#36D1DC,#5B86E5);
+    -webkit-background-clip: text;
+    color: transparent; 
+
+    font-size: 50px;
 }
 
 p,h1{     
-color: rgba(47, 46, 46, 0.247);
--webkit-text-stroke: 1px rgb(1, 1, 1);
+color: rgb(236, 236, 236);
+/* -webkit-text-stroke: 1px rgb(1, 1, 1); */
 }
 p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .contenedor-all{
@@ -22,7 +39,111 @@ p{
     padding-left: 50px;
     padding-right: 50px;
 }
+label{
+    color:aliceblue
+}
+.tech-sec{
+    margin-top: 100px;
+    border-bottom: 2px solid #5B86E5;
+    margin-bottom: 50px;
+}
+.cont-sec{
+    margin-top: 100px;
+}
+.pro-sec{
+    
+    border-bottom: 2px solid #5B86E5;
+    margin-bottom: 100px;
+}
+.titles{
+    text-align: center;
+}
 
 .image-me{
     border-radius: 50%;
+}
+
+.boton-descarga{
+    background:#cfcfcf;
+    color: rgb(32, 32, 32);
+    font-size: large;
+    border: #94b1d2;
+    
+}
+.boton-descarga:hover{
+   
+    color: rgb(254, 254, 254);
+    font-size: larger;
+    border: #94b1d2;
+}
+a{
+text-decoration: none;
+color: aliceblue;
+}
+a:hover{
+    background: linear-gradient(#36D1DC,#5B86E5);
+    -webkit-background-clip: text;
+    color: transparent; 
+
+    
+}
+
+.cont-foto >a{
+    background: #5B86E5;
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+}
+
+.tech{
+    width: 200px;
+    height: 200px;
+    
+
+
+}
+
+h4{
+    color:#010101 !important;
+    align-self: center;
+    width: min-content;
+}
+.label-img{
+    display: flex;
+    flex-direction: column;
+    filter: grayscale(100%) saturate(200%); 
+    
+    width: fit-content;
+    margin: 2px;
+    
+}
+.express-img{
+    filter: invert();
+    color:white;
+}
+.express-img:hover{
+    filter: none;
+}
+.label-img:hover {
+    background-color: whitesmoke;
+    transition: all .5s ease;
+    filter:none;
+    box-shadow: 15px 10px #5B86E5;
+}
+.svg-container{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill,200px);
+    grid-gap: 50px;
+}
+
+.img-pro{
+    width: 50%;
+}
+
+
+i{
+    font-size: 35px;
+    background: linear-gradient(#36D1DC,#5B86E5);
+    -webkit-background-clip: text;
+    color: transparent; 
 }

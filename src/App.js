@@ -1,7 +1,8 @@
 import Portfolio from './Componentes/Portfolio';
 import { Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
+
 import NavBar from './Componentes/NavBar';
+import Footer from './Componentes/Footer';
 
 
 
@@ -13,7 +14,7 @@ function App() {
         <Route 
 
           path="/"
-          element={[<NavBar key={"nav"}></NavBar>, <Portfolio key={"portfolio"} />]}>
+          element={[<NavBar key={"nav"}></NavBar>, <Portfolio key={"portfolio"} />, <Footer></Footer>]}>
 
         </Route>
 
