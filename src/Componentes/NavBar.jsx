@@ -13,7 +13,7 @@ const NavBar = () => {
   <div className="container-fluid align-center">
       <ul className="navbar-nav justify-content-center ">
         <li className="nav-item px-4">
-          <a className="nav-link active fs-4 linknav" aria-current="page" href="#">Sobre mi</a>
+          <a className="nav-link active fs-4 linknav" aria-current="page" href="#">Sobre mí</a>
         </li>
         <li className="nav-item px-4">
           <a className="nav-link active fs-4" href="#tech">Tecnologías</a>

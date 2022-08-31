@@ -7,14 +7,14 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(form.current)
     emailjs.sendForm('service_5fh7dfx', 'template_rcomeue', form.current, 'shJB6FpRWF6dVSnxf')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-      e.target.rest()
+      e.target.reset()
   };
 
   return (
